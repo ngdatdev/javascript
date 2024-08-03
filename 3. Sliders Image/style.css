@@ -1,0 +1,55 @@
+
+.image img {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.next {
+    position: absolute;
+    top: 46%;
+    right: 1%;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+.next:hover {
+    background-color: rgb(166, 168, 168);
+}
+.prev {
+    position: absolute;
+    top: 46%;
+    left: 1%;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+.prev:hover {
+    background-color: rgb(166, 168, 168);
+}
+
+.dots {
+    text-align: center;
+}
+
+.dot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(162, 158, 158);
+    border-radius: 15px;
+    margin: 2px;
+}
+
+.active {
+    background-color: rgb(67, 63, 63);
+}
+

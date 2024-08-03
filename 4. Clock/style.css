@@ -1,0 +1,38 @@
+body {
+    background: conic-gradient(from -.5turn at bottom right, deeppink, cyan, rebeccapurple);
+}
+
+.container {
+    width: 100%;
+    height: 98vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    width: 60%;
+    height: 12%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.clock h1 {
+    display: inline-block;
+    font-size: 60px;
+}
+
+.dayOfWeek {
+    padding-right: 20px;
+}
+
+.hour::after, .minute::after{
+    content: ":";
+    margin-bottom: 10px;
+    position: relative;
+    top: -2px;
+    left: 2px;
+}
+

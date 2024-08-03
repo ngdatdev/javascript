@@ -1,0 +1,48 @@
+* {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 40%;
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.btn, .equals {
+    flex: 0 0 25%;
+    height: 45px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(249, 230, 221);
+}
+
+#result {
+    width: 98%;
+    border: 1px solid rgb(71, 70, 68);
+    height: 30px;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 16px;
+} 
+.equal {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(218, 155, 113);
+}
+
+.btn:hover, .equals:hover {
+    background-color: rgb(229, 163, 117);
+    cursor: pointer;
+}

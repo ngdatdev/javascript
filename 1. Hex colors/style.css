@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hex-color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hex-color h1 {
+    animation: changeMode 4s infinite alternate;
+}
+
+.btn {
+    width: 160px;
+    height: 30px;
+    background-color: cadetblue;
+    cursor: pointer;
+    border: none;
+}
+
+@keyframes changeMode {
+    20% {
+        color: brown;
+    } 
+    40% {
+        color: yellowgreen;
+    }
+    60% {
+        color: blue;
+    }
+    80% {
+        color: darkgreen;
+    }
+    0% {
+        color: #000;
+    }
+}
